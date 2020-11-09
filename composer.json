@@ -1,0 +1,14 @@
+{
+    "name": "yanyan/transliterator",
+    "description": "",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "ext-intl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "trans\\": "src/"
+        }
+    }
+}
